@@ -11,7 +11,7 @@ endif
 
 # Set the files and objects
 objects = HYDRUS.o INPUT.o HYSTER.o MATERIAL.o OUTPUT.o SINK.o SOLUTE.o TEMPER.o TIME.o WATFLOW.o
-files = HYDRUS.FOR INPUT.FOR HYSTER.FOR MATERIAL.FOR OUTPUT.FOR SINK.FOR SOLUTE.FOR TEMPER.FOR TIME.FOR WATFLOW.FOR
+files = source/HYDRUS.FOR source/INPUT.FOR source/HYSTER.FOR source/MATERIAL.FOR source/OUTPUT.FOR source/SINK.FOR source/SOLUTE.FOR source/TEMPER.FOR source/TIME.FOR source/WATFLOW.FOR
 FFLAGS = -g -ffpe-summary=none
 # Compile to a unix executable
 hydrus:
